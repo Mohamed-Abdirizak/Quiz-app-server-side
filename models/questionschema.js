@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const {Schema} = mongoose;
 
-//  question model
+//  questions model
 const questionModel = new Schema({
     questions: {
         type: Array,
